@@ -6,4 +6,4 @@ class BoardTest(unittest.TestCase):
         self.board = Board()
 
     def test_board_initializes_with_64_squares(self):
-        assertEquals(len(self.board), 64)
+        self.assertEquals(len(self.board), 64)
